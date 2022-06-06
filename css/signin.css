@@ -1,0 +1,51 @@
+body {
+  background: url(../img/bg.jpg)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.sign_in_card {
+  width: 100vw;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form_body {
+  margin: auto;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 5px;
+  border: solid 1px aqua;
+  backdrop-filter: blur(10px);
+  background-color: rgb(0, 0, 0, 0.20);
+}
+
+.username {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px aqua;
+}
+
+.password {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px aqua;
+}
+
+.singin_text {
+  color: white;
+}
+
+.sign_btn {
+  color: black;
+  cursor: pointer;
+  padding: 6px 30px;
+  border-radius: 5px;
+  border: solid 1px aqua;
+  background-color: lightgreen;
+}

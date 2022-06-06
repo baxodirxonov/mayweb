@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="html, css ,js">
+	<meta name="desciption" content="bepul darslar">
+	<meta name="author" content="Admin">
+	<meta http-equiv="refresh" content="9999">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>myweb</title>
+	<link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header_body">
+  <nav>
+
+    <div class="topnav" id="myTopNav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+
+      <a href="./auth/signin.html" target="blank">Sign-in</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        =
+      </a> 
+
+      <form action="search" class="search_body">
+        <input type="text" name="search" placeholder="Search" class="input_body">
+        <button type="submit" class="mybtn outs">Search</button>
+      </form>
+
+    </div>
+
+  </nav>
+
+  <div class="home_header">
+    <div class="home_header_body">
+      <div class="home_header_body_card">
+        <div class="home_header_body_card_text">
+          <h1>
+            This is a new cars bmw 5 series
+            f90 cs full compiltions m packet
+          </h1>
+          <p>Take Control of your ride</p>
+          <button class="header_btn">
+            Preview
+          </button>
+          <button class="header_btn outs">
+            Preview
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</header>
+
+<main>
+
+  <div class="blog_list_height">
+    <div class="blog_list_row">
+      
+      <div class="blog_card">
+        
+        <div class="blog_card_img mask">
+          <img src="./img/b1.jpg" alt="bmw">
+          <div class="img_control"></div>
+        </div>
+
+        <div class="btn_body">
+          <a href="#0" class="card_btn">
+            Preview
+          </a>
+        </div>
+
+      </div>
+
+      <div class="blog_card">
+        <div class="blog_card_img mask">
+          <img src="./img/b2.jpg" alt="bmw">
+          <div class="img_control"></div>
+        </div>
+      </div>
+
+      <div class="blog_card">
+        <div class="blog_card_img mask">
+          <img src="./img/b3.jpg" alt="bmw">
+          <div class="img_control"></div>
+        </div>
+      </div>
+
+      <div class="blog_card">
+        <div class="blog_card_img mask">
+          <img src="./img/b4.jpg" alt="bmw">
+          <div class="img_control"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  this is footer
+</footer>
+
+<script type="text/javascript">
+  function myFunction() {
+    var x = document.getElementById("myTopNav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</body>
+</html>
